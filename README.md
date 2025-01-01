@@ -1,3 +1,5 @@
+
+```markdown
 # Sentiment Analysis of Tweets
 
 This repository showcases a Machine Learning pipeline for sentiment analysis of tweets. The project processes text data, extracts features, trains a classification model, and provides an interactive interface for real-time sentiment prediction.
@@ -53,22 +55,44 @@ The dataset used is [Sentiment140](https://www.kaggle.com/datasets/kazanova/sent
    ```bash
    git clone https://github.com/your-username/sentiment-analysis-tweets.git
    cd sentiment-analysis-tweets
-2.Install dependencies:
-pip install -r requirements.txt
-3.Download the dataset:
-Place the sentiment140.zip file in the root folder.
-Unzip the dataset:
-`from zipfile import ZipFile
-with ZipFile("sentiment140.zip", "r") as zip:
-    zip.extractall()`
-🚀 How to Run
-1.Open the notebook SentimentAnalysis.ipynb in Jupyter/Colab.
-2.Follow the steps for data preprocessing, model training, and evaluation.
-3.Use the interactive widgets to input custom tweets and analyze their sentiment.
-📊 Model Performance
-Training Accuracy: ~78%
-Testing Accuracy: ~77.8%
-📫 Contributing
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Download the dataset:
+   - Place the `sentiment140.zip` file in the root folder.
+4. Unzip the dataset:
+   ```python
+   from zipfile import ZipFile
+   with ZipFile("sentiment140.zip", "r") as zip:
+       zip.extractall()
+   ```
+
+---
+
+## 🚀 **How to Run**
+
+1. Open the notebook `SentimentAnalysis.ipynb` in Jupyter/Colab.
+2. Follow the steps for data preprocessing, model training, and evaluation.
+3. Use the interactive widgets to input custom tweets and analyze their sentiment.
+
+---
+
+## 📊 **Model Performance**
+
+- **Training Accuracy**: ~78%
+- **Testing Accuracy**: ~77.8%
+
+---
+
+## 📫 **Contributing**
+
 Feel free to open issues or submit pull requests for any suggestions or improvements.
-📜 License
+
+---
+
+## 📜 **License**
+
 This project is licensed under the MIT License.
+```
